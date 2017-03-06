@@ -1,0 +1,178 @@
+/*.one{
+  margin:  0;
+ padding:  0;
+list-style-type:  none;
+}
+.one li{
+  background:  url(images/right.png)no-repeat 0 ;
+  padding-left:  30px;
+}
+*/
+
+.nav{
+         margin:  0;
+        padding:  0;
+list-style-type:  none;
+          width:  8em;
+       background-color:  #8BD400;
+         border:  1px solid #486B02;
+}
+.nav li{
+      display:  inline;
+}
+
+.nav a{
+        display:  block;
+          color:  #2B3F00;
+text-decoration:  none;
+     border-top:  1px solid #e4ffd3;
+  border-bottom:  1px solid #486B02;
+     background:  url(images/arrow.png)no-repeat 0 50%;
+     padding:  0.3em 1em;
+}
+.nav a:hover,
+.nav a:focus,
+.nav.selected a{
+           color:  #E4FFD3;
+           background-color: #6DA203;
+}
+
+#home .nav .home a,
+#about .nav .about a,
+#news .nav .news a,
+#services .nav .services a{
+   background-position:  right bottom;
+                cursor:  default;
+                 color:  #fff;
+
+}
+/******************************************************/
+ol.pagination{
+    margin:  0 ;
+   padding:  0;
+  list-style-type:  none;
+  padding-left:500px;
+  padding-bottom:300px;
+}
+
+ol.pagination li {
+         float:  left;
+  margin-right: 0.6em;
+  
+}
+
+ol.pagination a,
+ol.pagination li.selected{
+         display:  block;
+         padding:  0.2em 0.5em;
+          border:  1px solid #ccc;
+        text-decoration:  none;
+}
+ol.pagination a:hover,
+ol.pagination a:focus,
+ol.pagination li.selected{
+   background-color:  blue;
+              color:  white;
+}
+
+ol.pagination a[rel="prev"],
+ol.pagination a[rel="next"]{
+    border:   none;
+}
+
+ol.pagination a[rel="prev"]:before{
+     content:  "\00AB";
+    padding-right:  0.5em;
+}
+ol.pagination a[rel="next"]:after{
+     content:  "\00BB";
+   padding-left:  0.5em;
+}
+
+/********************************************************/
+.navv{
+   margin:  0;
+   padding:  0;
+   padding-left:  300px;
+   list-style:  none;
+   width:  72em;
+   overflow:  hidden;
+   background:  #FAA819 url(images/mainNavBg.png) repeat-x;
+}
+
+.navv li{
+        float:  left;
+}
+
+.navv a{
+       display:  block;
+       padding:  0 2em;
+   line-height:  2.1em;
+    backdround:  url(images/2.png) repeat-x left top; 
+   text-decoration:  none;
+   color:  #fff;
+}
+
+.navv .first a{
+  background-images:  none;
+}
+
+.navv a:hover,
+.navv a:focus{
+   color:  #333;
+}
+
+.naa{
+    margin:  0 auto;
+   padding:  0;
+   margin-bottom:  400px;
+  list-style:  none;
+  width:  72em;
+   overflow:  hidden;
+}
+.naa li{
+
+   float:  left;
+  background:  url(images/3.jpg) no-repeat right top;
+}
+ .naa li a{
+
+  display:  block;
+  padding:  0 2em;
+  line-height:  2.5em;
+  background:  url(images/3.jpg)no-repeat left top;
+  text-decoration:  none;
+  color:  green;
+  float:  left;
+}
+
+.naa a:hover,
+.naa a:focus{
+    color:  #333;
+} 	
+
+
+.nvv, .nvv ul{
+           margin:  0;
+          padding:  0;
+  list-style-type:  none;
+            float:  left;
+           border:  1px solid #486B02;
+ background-color:  #8BD400;
+}
+.nvv li{
+              float:  left;
+              width:  6em;
+   background-color:  #8BD400;
+}
+.nvv li ul{
+     width:  6em;
+  position:  absolute;
+      left:  -999em;
+}
+
+  .nvv li:hover ul{
+    left:  auto	;
+}
+
+
